@@ -7,18 +7,19 @@ public class Main {
         System.out.println(resultado);
 
         Coche miCoche = new Coche();
-        int puertas = miCoche.incrementarNumeroPuertas(1);
+        miCoche.incrementarNumeroPuertas();
+        miCoche.incrementarNumeroPuertas();
 
-        System.out.println(puertas);
+        System.out.println("El número de puertas es: " + miCoche.numeroPuertas);
     }
     public static int sumarNumeros(int a, int b, int c) {
         return a + b + c;
     }
 }
 class Coche {
-    int numeroPuertas = 0;
+    public int numeroPuertas = 2;
 
-    public int incrementarNumeroPuertas(int cantidad) {
-        return numeroPuertas + cantidad;
+    public void incrementarNumeroPuertas() {
+        this.numeroPuertas++;
     }
 }

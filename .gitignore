@@ -3,6 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+### Discord Rich Presence ###
+.idea/discord.xml
+
 ### Eclipse ###
 .apt_generated
 .classpath
