@@ -1,6 +1,6 @@
 package ob.java.tests;
 
-public class Main {
+public class Objetos {
     public static void main(String[] args) {
         int resultado = sumarNumeros(10, 10, 10);
 
