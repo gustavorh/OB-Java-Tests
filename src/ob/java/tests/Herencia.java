@@ -13,8 +13,15 @@ public class Herencia {
         System.out.println("El teléfono del cliente es: " + cliente.telefono);
         System.out.println("El crédito del cliente es: $" + cliente.credito + " USD.");
 
+        System.out.println("-----------------------------------------");
         Trabajador trabajador = new Trabajador();
+        trabajador.nombre = "Ignacio";
+        trabajador.edad = 20;
+        trabajador.telefono = 941884650;
         trabajador.salario = 1000;
+        System.out.println("El nombre del trabajador es: " + trabajador.nombre);
+        System.out.println("La edad del trabajador es: " + trabajador.edad);
+        System.out.println("El teléfono del trabajador es: " + trabajador.telefono);
         System.out.println("El salario del trabajador es: $" + trabajador.salario + " USD/Mes.");
 
     }
